@@ -14,7 +14,7 @@
  ` > conda create -n cjmat matplotlib jupyter `   
  ` > conda activate cjmat `  
  ` > conda install pandas tensorflow `  
- ` > conda list pandas `  list: 하나의 패키지만 확인 가능
+ ` > conda list pandas `  list: 하나의 패키지만 확인 가능  
  ` > conda list jupyter `  
  ` > conda deactivate `  
  
