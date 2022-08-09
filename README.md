@@ -11,12 +11,12 @@
  ` > deactivate `
 
 ## 가상환경 생성(conda 활용)
- ` > conda create -n cjmat matplotlib jupyter ` 
- ` > conda activate cjmat `
- ` > conda install pandas tensorflow `
- ` > conda list pandas `
- ` > conda list jupyter `
- ` > conda deactivate `
+ ` > conda create -n cjmat matplotlib jupyter `   
+ ` > conda activate cjmat `  
+ ` > conda install pandas tensorflow `  
+ ` > conda list pandas `  
+ ` > conda list jupyter `  
+ ` > conda deactivate `  
  
  ## 가상환경 생성(conda 활용)
 
