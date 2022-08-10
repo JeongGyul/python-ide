@@ -53,10 +53,10 @@
  ` > jupyter kernelspec list`  
  ` > conda deactivate `  
 
-- 가상환경 jpd 생성과 커널 등록
+- 가상환경 jpd 생성과 커널 등록  
  ' > conda create -n jpd pandas jupyter '  
  ` > conda activate jpd `  
- ` > python -m ipykernel install --user --name jpd --display-name jpd `
+ ` > python -m ipykernel install --user --name jpd --display-name jpd `  
  ` > jupyter kernelspec list`  
  ` > conda deactivate `  
  
