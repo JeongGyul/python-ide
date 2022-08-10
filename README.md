@@ -3,6 +3,9 @@
 
 파이썬을 위한 다양한 개발환경
 
+## 수업 자료 내려받기
+' $ git clone https://github.com/ai7dnn/python-ide.git '  
+
 ## 가상환경 생성(venv 활용)
  ` > python -m venv jnum `   
  ` > jnum\scripts\activate `  
