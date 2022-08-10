@@ -28,6 +28,9 @@
  ` > python -m ipykernel install --user --name jnum --display-name "py numpy"`  
    1. jnum: 커널이름
    2. 주피터에서의 표시이름: "py numpy"  
+  
+ - 생성된 가상환경을 활성화한 상태에서 kernelspec list 에서 보이는 python3
+     * 가상환경의 kernel 임
  
  ` > jupyter kernelspec list`  
  ` > jupyter notebook`  
