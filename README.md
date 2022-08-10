@@ -41,4 +41,27 @@
  
 ## 주피터 커널 삭제
  ` > jupyter kernelspec uninstall jnum `
+ 
+## 주피터 커널 생성 실습
+- 주피터 커널 확인
+ ` > jupyter kernelspec list`  
 
+- 가상환경 jnp 생성과 커널 등록
+ ` > conda create -n jnp numpy jupyter `  
+ ` > conda activate jnp `  
+ ` > python -m ipykernel install --user --name jnp --display-name jnp `
+ ` > jupyter kernelspec list`  
+ ` > conda deactivate `  
+
+- 가상환경 jpd 생성과 커널 등록
+ ' > conda create -n jpd pandas jupyter '  
+ ` > conda activate jpd `  
+ ` > python -m ipykernel install --user --name jpd --display-name jpd `
+ ` > jupyter kernelspec list`  
+ ` > conda deactivate `  
+ 
+- 주피터 총 커널 확인
+ ` > jupyter kernelspec list`  
+ 
+- 주피터 싱행해 각 커널 별로 확인 확인
+ ` > jupyter notebook`  
