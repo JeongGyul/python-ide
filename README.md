@@ -42,7 +42,7 @@
 ## 주피터 커널 삭제
  ` > jupyter kernelspec uninstall jnum `
  
-## 주피터 커널 생성 실습
+## 주피터 커널 생성 실습 1
 - 주피터 커널 확인  
  ` > jupyter kernelspec list`  
 
@@ -70,4 +70,35 @@
  import site  
  site.getsitepackages()
  ```
+
+## 주피터 커널 생성 실습 1
+- 주피터 커널 확인  
+ ` > jupyter kernelspec list`  
+
+- 가상환경 py38 생성과 커널 등록  
+ ` > conda create -n py38 python=3.8.1 ipykernel `
+ ` > conda activate py38 `  
+ ` > python -m ipykernel install --user --name mypy38 --display-name "my python 3.8.1" `  
+ ` > jupyter kernelspec list`  
+ ` > conda deactivate `  
+
+- 가상환경 jpd 생성과 커널 등록  
+ ` > conda create -n py39 python=3.9.1 ipykernel `
+ ` > conda activate py39 `  
+ ` > python -m ipykernel install --user --name mypy39 --display-name "my python 3.9.1" `  
+ ` > jupyter kernelspec list`  
+ ` > conda deactivate `  
+ 
+- 주피터 총 커널 확인  
+ ` > jupyter kernelspec list `    
+ 
+- 주피터 실행해 각 커널 별로 소스에서 확인  
+ ` > jupyter notebook `   
+ 
+ ```
+ import site  
+ site.getsitepackages()
+ ```
+
+ 
  
