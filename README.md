@@ -42,7 +42,7 @@
 ## 주피터 커널 삭제
  ` > jupyter kernelspec uninstall jnum `
  
-## 주피터 커널 생성 실습 1
+## 주피터 커널 생성 실습 1: 각각의 가상환경에 numpy와 pandas를 설치
 - 주피터 커널 확인  
  ` > jupyter kernelspec list`  
 
@@ -71,7 +71,7 @@
  site.getsitepackages()
  ```
 
-## 주피터 커널 생성 실습 1
+## 주피터 커널 생성 실습 2: 각각의 가상환경에 python 3.8.1과 python 3.9.1을 설치
 - 주피터 커널 확인  
  ` > jupyter kernelspec list`  
 
