@@ -76,16 +76,16 @@
  ` > jupyter kernelspec list`  
 
 - 가상환경 py38 생성과 커널 등록  
- ` > conda create -n py38 python=3.8.1 ipykernel `
+ ` > conda create -n py38 python=3.8.1 ipykernel `  
  ` > conda activate py38 `  
- ` > python -m ipykernel install --user --name mypy38 --display-name "my python 3.8.1" `  
+ ` > python -m ipykernel install --user --name mypy38 --display-name "my python 3.8.1" `    
  ` > jupyter kernelspec list`  
  ` > conda deactivate `  
 
 - 가상환경 jpd 생성과 커널 등록  
- ` > conda create -n py39 python=3.9.1 ipykernel `
+ ` > conda create -n py39 python=3.9.1 ipykernel `  
  ` > conda activate py39 `  
- ` > python -m ipykernel install --user --name mypy39 --display-name "my python 3.9.1" `  
+ ` > python -m ipykernel install --user --name mypy39 --display-name "my python 3.9.1" `    
  ` > jupyter kernelspec list`  
  ` > conda deactivate `  
  
