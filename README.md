@@ -43,7 +43,7 @@
  ` > jupyter kernelspec uninstall jnum `
  
 ## 주피터 커널 생성 실습
-- 주피터 커널 확인
+- 주피터 커널 확인  
  ` > jupyter kernelspec list`  
 
 - 가상환경 jnp 생성과 커널 등록  
