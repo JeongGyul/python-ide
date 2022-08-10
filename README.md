@@ -22,7 +22,7 @@
  ` > conda list jupyter `  
  ` > conda deactivate `  
  
- ## 주피터 커널 생성
+## 주피터 커널 생성
  ` > jupyter kernelspec list`  
  - 다음 명령은 반드시 생성된 가상환경을 활성화한 상태에서   
  ` > python -m ipykernel install --user --name jnum --display-name "py numpy"`  
@@ -32,6 +32,10 @@
  ` > jupyter kernelspec list`  
  ` > jupyter notebook`  
 
+## 현재 파이썬 확인 방법
+ ` import site `  
+ ` site.getsitepackages() `  
+ 
 ## 주피터 커널 삭제
  ` > jupyter kernelspec uninstall jnum `
 
