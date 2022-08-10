@@ -4,7 +4,7 @@
 파이썬을 위한 다양한 개발환경
 
 ## 수업 자료 내려받기
-' $ git clone https://github.com/ai7dnn/python-ide.git '  
+` $ git clone https://github.com/ai7dnn/python-ide.git `  
 
 ## 가상환경 생성(venv 활용)
  ` > python -m venv jnum `   
@@ -22,5 +22,13 @@
  ` > conda list jupyter `  
  ` > conda deactivate `  
  
- ## 가상환경 생성(conda 활용)
+ ## 주피터 커널 생성
+ ` > jupyter kernelspec list`  
+ - 다음 명령은 반드시 생성된 가상환경을 활성화한 상태에서   
+ ` > python -m ipykernel install --user --name jnum --display-name "py numpy"`  
+ ` > jupyter kernelspec list`  
+ ` > jupyter notebook`  
+
+## 주피터 커널 삭제
+ ' > jupyter kernelspec uninstall jnum '
 
