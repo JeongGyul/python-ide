@@ -26,10 +26,11 @@
  ` > jupyter kernelspec list`  
  - 다음 명령은 반드시 생성된 가상환경을 활성화한 상태에서   
  ` > python -m ipykernel install --user --name jnum --display-name "py numpy"`  
- 
+   1. jnum: 커널이름
+   2. 주피터에서의 표시이름: "py numpy"
  ` > jupyter kernelspec list`  
  ` > jupyter notebook`  
 
 ## 주피터 커널 삭제
- ' > jupyter kernelspec uninstall jnum '
+ ` > jupyter kernelspec uninstall jnum `
 
