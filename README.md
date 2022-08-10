@@ -63,5 +63,11 @@
 - 주피터 총 커널 확인  
  ` > jupyter kernelspec list `    
  
-- 주피터 싱행해 각 커널 별로 확인 확인  
- ` > jupyter notebook `  
+- 주피터 실행해 각 커널 별로 소스에서 확인  
+ ` > jupyter notebook `   
+ 
+ ```
+ import site  
+ site.getsitepackages()
+ ```
+ 
